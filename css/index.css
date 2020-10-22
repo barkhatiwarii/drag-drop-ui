@@ -1,0 +1,40 @@
+body {
+    background-color: #eeeeee;
+    color: black;
+    margin: 0;
+    padding: 0%;
+}
+
+.left-side-nav {
+    height: 530px;
+    z-index: 1;
+    float: left;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.right-side-nav {
+    height: 480px;
+    z-index: 1;
+    float: right;
+    /* overflow-x: auto;
+    overflow-y: auto; */
+}
+
+#drop-container {
+    height: 530px;
+    flex: col;
+    background-color: #BDBDBD;
+    align-content: space-between;
+    display: inline-block;
+    margin-left: 0%;
+}
+
+ul li a {
+    color: black;
+}
+
+.test {
+    height: 60px;
+    width: 60px;
+}
